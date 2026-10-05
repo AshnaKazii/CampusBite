@@ -1,0 +1,18 @@
+# Frontend
+client/node_modules/
+client/dist/
+
+# Backend
+server/node_modules/
+
+# Environment variables
+.env
+.env.*
+client/.env
+client/.env.*
+server/.env
+server/.env.*
+
+# Logs
+*.log
+npm-debug.log*

@@ -1,0 +1,24 @@
+[31mx[39m Build failed in 174ms
+[31merror during build:
+[31m[vite:esbuild] Transform failed with 1 error:
+C:/Users/Ashna/OneDrive/Desktop/CampusBite/client/src/pages/student/CanteenDetails.jsx:19:23: ERROR: Expected "{" but found "\\"[31m
+file: [36mC:/Users/Ashna/OneDrive/Desktop/CampusBite/client/src/pages/student/CanteenDetails.jsx:19:23[31m
+[33m
+[33mExpected "{" but found "\\"[33m
+17 |  
+18 |      return (
+19 |          <div className=\"animate-fade-in\">
+   |                         ^
+20 |              < Link to =\"/student/canteens\" style={styles.backLink}>
+21 |                  < ArrowLeft size = { 20} /> Back to Canteens
+[31m
+    at failureErrorWithLog (C:\Users\Ashna\OneDrive\Desktop\CampusBite\client\node_modules\esbuild\lib\main.js:1472:15)
+    at C:\Users\Ashna\OneDrive\Desktop\CampusBite\client\node_modules\esbuild\lib\main.js:755:50
+    at responseCallbacks.<computed> (C:\Users\Ashna\OneDrive\Desktop\CampusBite\client\node_modules\esbuild\lib\main.js:622:9)
+    at handleIncomingPacket (C:\Users\Ashna\OneDrive\Desktop\CampusBite\client\node_modules\esbuild\lib\main.js:677:12)
+    at Socket.readFromStdout (C:\Users\Ashna\OneDrive\Desktop\CampusBite\client\node_modules\esbuild\lib\main.js:600:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)[39m
